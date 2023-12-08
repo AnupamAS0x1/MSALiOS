@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07054293F2B31769EC773C83 /* MSALiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MSALiOS.podspec; path = ../MSALiOS.podspec; sourceTree = "<group>"; };
-		247C293763BAA7E5FDD101E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		07054293F2B31769EC773C83 /* MSALiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MSALiOS.podspec; path = ../MSALiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		247C293763BAA7E5FDD101E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2A0E1155A8A42896A7964D33 /* Pods-MSALiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSALiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-MSALiOS_Tests/Pods-MSALiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		41981532C47940DE98AA2141 /* Pods_MSALiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSALiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* MSALiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSALiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		78F2AEF15BA2A86A34E450B9 /* Pods-MSALiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSALiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MSALiOS_Tests/Pods-MSALiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0AA227B6606203A60F75CF2 /* Pods-MSALiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSALiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-MSALiOS_Example/Pods-MSALiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D2C5460D5B9D62F7B6AB9948 /* Pods-MSALiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSALiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-MSALiOS_Example/Pods-MSALiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E076545A2DE9C00A15607576 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E076545A2DE9C00A15607576 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				78F2AEF15BA2A86A34E450B9 /* Pods-MSALiOS_Tests.debug.xcconfig */,
 				2A0E1155A8A42896A7964D33 /* Pods-MSALiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

@@ -1,0 +1,6 @@
+framework module MSALiOS {
+  umbrella header "MSALiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
