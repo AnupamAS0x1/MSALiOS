@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MSALiOS_Example' do
+  pod 'MSALiOS', :path => '../'
+
+  target 'MSALiOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
